@@ -1,0 +1,133 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Banking application",
+    "line": 1,
+    "id": "test-banking-application",
+    "tags": [],
+    "uri": "Features\\Test1.feature",
+    "elements": [
+      {
+        "id": "test-banking-application;add-customer-through-bank-manager-login-option",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Add customer through bank manager login option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"http://way2automation.com/angularjs-protractor/banking/#/login\"",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on Add customer",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I give the customer details \"Abhishek\", \"Thakur\",\"1234\"",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Add customer button",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should get the popup",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
